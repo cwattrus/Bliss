@@ -1,0 +1,94 @@
+.image {
+
+}
+
+.full {
+	width: 100%;
+}
+
+.bliss-lab-test {
+	padding: 20px;
+}
+
+.alt-bliss-lab-test {
+	padding: 20px;
+	background-color: #262c30;
+}
+
+.content {
+  margin-right: auto;
+  margin-left: auto;
+  width: 1404px;
+}
+
+/* Bliss Single */
+.bliss-box {
+	position: relative;
+}
+
+.bliss-box-single-polaroid {
+	position: relative;
+	width: 100%;
+	border-radius: 10px;
+	box-shadow: 2px 2px 3px #666666;
+	border: 1px solid #ececec;
+}
+.bliss-box-single-polaroid-framed-light {
+	position: relative;
+	width: 100%;
+	box-shadow: 2px 2px 3px #666666;
+	outline: 12px solid #ffffff;
+	outline-offset: -10px;
+}
+.bliss-box-single-polaroid-framed-dark {
+	position: relative;
+	width: 100%;
+	box-shadow: 2px 2px 3px #666666;
+	outline: 12px solid #000000;
+	outline-offset: -10px;
+}
+.bliss-box-single-circle {
+	position: relative;
+	width: 100%;
+	border-radius: 100%;
+	box-shadow: 2px 2px 3px #666666;
+	border: 2px solid #ececec;
+}
+
+.circle-caption-dark {
+	position: relative;
+	bottom: 70px;
+	left: -60px;
+	text-align: center;
+	font-size: x-large;
+	text-shadow: 1px 2px 3px #666666;
+	color: black;
+}
+.circle-caption-light {
+	position: relative;
+	bottom: 70px;
+	left: -60px;
+	text-align: center;
+	font-size: x-large;
+	text-shadow: 1px 2px 3px #666666;
+	color: white;
+}
+.caption-dark {
+	position: relative;
+	bottom: 60px;
+	left: 50px;
+	font-size: x-large;
+	text-shadow: 1px 2px 3px #666666;
+	color: black;
+}
+.caption-light {
+	position: relative;
+	bottom: 60px;
+	left: 50px;
+	font-size: x-large;
+	text-shadow: 1px 2px 3px #666666;
+	color: white;
+}
+.sub-caption {
+	font-size: medium;
+}
