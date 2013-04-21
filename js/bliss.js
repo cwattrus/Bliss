@@ -18,7 +18,6 @@ function getAverageRGB(imgElement) {
     width = canvas.width = imgElement.naturalWidth || imgElement.offsetWidth || imgElement.width;
 
     context.drawImage(imgElement, 0, 0);
-
     try {
         data = context.getImageData(0, 0, width, height);
     } catch(e) {
