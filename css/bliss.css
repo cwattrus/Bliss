@@ -1,4 +1,27 @@
-/* Bliss Singles */
+
+.image {
+
+}
+
+.full {
+	width: 100%;
+}
+
+.bliss-lab-test {
+	padding: 20px;
+}
+.alt-bliss-lab-test {
+	padding: 20px;
+	background-color: #262c30;
+}
+
+.content {
+  margin-right: auto;
+  margin-left: auto;
+  width: 1404px;
+}
+
+/* Bliss Single */
 .bliss-box {
 	position: relative;
 }
@@ -39,9 +62,8 @@
 	border: 2px solid #ececec;
 }
 
-
-/* Bliss Captions */
 .caption-dark {
+	font-family: helvetica;
 	position: relative;
 	bottom: 60px;
 	left: 50px;
@@ -50,6 +72,7 @@
 	color: black;
 }
 .caption-light {
+	font-family: helvetica;
 	position: relative;
 	bottom: 60px;
 	left: 50px;
@@ -58,6 +81,7 @@
 	color: white;
 }
 .circle-caption-dark {
+	font-family: helvetica;
 	position: relative;
 	bottom: 70px;
 	left: -60px;
@@ -67,6 +91,7 @@
 	color: black;
 }
 .circle-caption-light {
+	font-family: helvetica;
 	position: relative;
 	bottom: 70px;
 	left: -60px;
