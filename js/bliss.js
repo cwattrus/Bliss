@@ -42,3 +42,9 @@ function getAverageRGB(imgElement) {
     return rgb;
 
 }
+
+function setDynamicFrame(imgElement) {
+    var color = getAverageRGB(imgElement);
+    var colorToCSS = "rgb(" + color.r + "," + color.g + "," + color.b + ")";
+    imgElement.style.border = "solid 10px " + colorToCSS;
+}
